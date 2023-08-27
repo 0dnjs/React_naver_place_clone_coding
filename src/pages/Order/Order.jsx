@@ -15,15 +15,23 @@ function Order(props) {
             <NavContainer />
             <div css={S.SLayout}>
                 <div css={S.STopContainer}>
-                    <div><strong>로그인</strong>하고 예약,<br/>
-                    주문 내역을 확인해보세요.</div>
-                    <button><SiNaver/> 네이버 로그인</button>
+                    <div css={S.SText1}>
+                        <strong css={S.SFontBold}>로그인</strong>하고 예약,<br/>
+                        주문 내역을 확인해보세요.
+                    </div>
+                    <button css={S.SButton1}><SiNaver size={12} css={S.SIcon}/> 네이버 로그인</button>
                 </div>
                 <div css={S.SBottomContainer}>
-                    <div><strong></strong></div>
-                    <div><input type="text" />예약번호 입력</div>
-                    <div><input type="text" />예약자명 입력</div>
-                    <button>내 예약 확인</button>
+                    <div css={S.SText2}>
+                        <strong css={S.SFontBold}>비회원</strong> 예약확인
+                    </div>
+                    <div css={S.SInputBox1}>
+                        <input type="text" placeholder='예약번호 입력'css={S.SInput}/>
+                    </div>
+                    <div css={S.SInputBox2}>
+                        <input type="text" placeholder='예약자명 입력' css={S.SInput}/>
+                    </div>
+                        <button css={S.SButton2}>내 예약 확인</button>
                 </div>
             </div>
         </>
