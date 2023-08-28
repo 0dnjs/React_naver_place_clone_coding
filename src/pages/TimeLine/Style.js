@@ -2,6 +2,7 @@ import { css } from "@emotion/react";
 
 export const SLayout = css`
     padding: 25px 20px;
+    background-color: #f9f9f9;
 `;
 
 export const SContainer = css`

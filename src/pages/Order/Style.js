@@ -5,6 +5,7 @@ export const SLayout = css`
     text-align: center;
     margin: 0 auto;
     color: #333;
+    background-color: #f9f9f9;
 `;
 
 export const STopContainer = css`
@@ -16,6 +17,8 @@ export const SBottomContainer = css`
     height: 299px;
     margin: 0px 20px;
     padding: 44px 0px 50px;
+    border-top: 1px solid;
+    border-top-color: #ebedef;
 `;
 
 export const SFontBold = css`
