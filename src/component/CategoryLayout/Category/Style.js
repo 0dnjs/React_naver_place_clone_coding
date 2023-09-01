@@ -6,8 +6,11 @@ export const SLayout = css`
 
 export const SContainer = css`
     padding: 10px 0px 2px;
-    width: 720px;
+    width: 750px;
+    height: 48px;
     margin: 0px auto;
+    overflow: hidden;
+    text-align: center;
 `;
 
 export const SSpan = css`

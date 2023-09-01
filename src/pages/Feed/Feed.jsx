@@ -3,8 +3,10 @@ import Header from '../../component/HeaderLayout/Header/Header';
 import LoginContainer from '../../component/LoginLayout/LoginContainer/LoginContainer';
 import NavContainer from '../../component/NavLayout/NavContainer/NavContainer';
 import FollowContainer from '../../component/FollowLayout/FollowContainer/FollowContainer';
-import Footer from '../../component/FooterLayout/Footer/Footer';
 import Category from '../../component/CategoryLayout/Category/Category';
+import ReviewContainer from '../../component/MainReviewLayout/ReviewContainer/ReviewContainer';
+import Footer from '../../component/FooterLayout/Footer/Footer';
+
 
 function Feed(props) {
     return (
@@ -14,6 +16,7 @@ function Feed(props) {
             <NavContainer />
             <FollowContainer/>
             <Category />
+            <ReviewContainer />
             <Footer />
         </>
     );

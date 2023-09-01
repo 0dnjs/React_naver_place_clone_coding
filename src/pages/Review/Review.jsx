@@ -1,6 +1,5 @@
 import React from 'react';
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
 import Header from '../../component/HeaderLayout/Header/Header';
 import LoginContainer from '../../component/LoginLayout/LoginContainer/LoginContainer';
 import NavContainer from '../../component/NavLayout/NavContainer/NavContainer';

@@ -1,10 +1,9 @@
 import React from 'react';
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
 import * as S from "./Style";
 
 
-function Pooter(props) {
+function Footer(props) {
     return (
         <div css={S.SLayout}>
             <div css={S.SContainer}>
@@ -30,4 +29,4 @@ function Pooter(props) {
     );
 }
 
-export default Pooter;
+export default Footer;

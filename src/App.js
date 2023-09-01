@@ -1,10 +1,7 @@
 /** @jsxImportSource @emotion/react */
-import { Global, css } from "@emotion/react";
+import { Global } from "@emotion/react";
 import { Reset } from 'styled-reset'
 import {  GSCommon } from "./styles/common";
-import Header from "./component/HeaderLayout/Header/Header";
-import LoginContainer from "./component/LoginLayout/LoginContainer/LoginContainer";
-import NavContainer from "./component/NavLayout/NavContainer/NavContainer";
 import { Route, Routes } from "react-router-dom";
 import Feed from "./pages/Feed/Feed";
 import TimeLine from "./pages/TimeLine/TimeLine";

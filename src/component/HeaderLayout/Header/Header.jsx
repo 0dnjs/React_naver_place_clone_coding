@@ -1,6 +1,5 @@
 import React from 'react';
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
 import { AiOutlineMenu } from "react-icons/ai";
 import * as S from "./Style";
 

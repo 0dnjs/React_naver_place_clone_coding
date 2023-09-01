@@ -1,6 +1,5 @@
 import React from 'react';
 /** @jsxImportSource @emotion/react */
-import { css } from "@emotion/react";
 import { IoIosArrowForward } from "react-icons/io";
 import { PiPencilSimpleLineFill } from "react-icons/pi"
 import { BsCheck2Circle } from "react-icons/bs"
