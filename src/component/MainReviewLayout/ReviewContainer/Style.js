@@ -27,10 +27,20 @@ export const SFlexLeft = css`
     align-items: center;
     text-align: left;
     width: 612px;
+    position: relative;
 `;
 
-export const SProfile = css`
+export const SProfile1 = css`
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+`;
+
+export const SProfile2 = css`
     width: 56px;
+    position: absolute;
+    left: -9px;
+    top: -8px;
 `;
 
 export const SName = css`
@@ -98,7 +108,8 @@ export const SLocation = css`
     position: absolute;
     bottom: 6px;
     left: 6px;
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     background: rgba(0,0,0,.6);
     color: #fff;
     padding: 0 4px;
@@ -108,4 +119,9 @@ export const SLocation = css`
     line-height: 20px;
     width: 122px;
     height: 20px;
+    letter-spacing: -1px;
+`;
+
+export const SLocationIcon = css`
+    margin-right: 2px;
 `;

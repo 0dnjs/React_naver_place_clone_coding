@@ -13,7 +13,8 @@ function ReviewContainer(props) {
                         <div css={S.SBox1}>
                             <div css={S.SFlexLeft}>
                                 <div>
-                                    <img src="/images/review_profile.png" alt="" css={S.SProfile}/>
+                                    <img src="/images/profile.png" alt="" css={S.SProfile1}/>
+                                    <img src="/images/review_profile.png" alt="" css={S.SProfile2}/>
                                 </div>
                                 <div>
                                     <div css={S.SName}>
@@ -40,7 +41,7 @@ function ReviewContainer(props) {
                                 <img src="/images/review02.jpg" alt="" css={S.SImageRight}/>
                             </div>
                             <div css={S.SLocation}>
-                                <MdLocationOn />
+                                <MdLocationOn css={S.SLocationIcon}/>
                                 제주시 구좌읍 최신
                             </div>
                         </div>
