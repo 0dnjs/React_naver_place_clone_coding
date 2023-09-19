@@ -24,6 +24,7 @@ export const Sprofile = css`
     margin: 2px;
     border: 1px solid rgba(0,0,0,.05);
     border-radius: 50%;
+    margin-top: 3px;
 `;
 
 export const SprofileBg = css`
@@ -32,6 +33,9 @@ export const SprofileBg = css`
     background-color: #fff;
     border-radius: 50%;
     margin-right: 29px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 `;
 
 export const SloginBox = css`
